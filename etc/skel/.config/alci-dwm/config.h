@@ -89,10 +89,6 @@ static const char *taskmanager[]  = { "xfce4-taskmanager", NULL };
 #include "selfrestart.c"
 #include "shiftview.c"
 
-bindsym $mod+r exec --no-startup-id systemctl reboot
-bindsym $mod+s exec --no-startup-id systemctl poweroff
-bindsym $mod+x exec --no-startup-id systemctl poweroff
-
 static Key keys[] = {
 	/* modifier                     key        function        argument */
 
