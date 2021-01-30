@@ -94,10 +94,6 @@ super + v
 #super + m
 #    pragha
 
-#xterm
-super + Return
-    xterm
-
 #Xkill
 super + Escape
     xkill
