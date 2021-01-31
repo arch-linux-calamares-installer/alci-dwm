@@ -97,6 +97,8 @@ static Key keys[] = {
 	{ MODKEY, 											XK_s,			 spawn,          SHCMD ("systemctl poweroff")},
 	{ MODKEY, 											XK_x,			 spawn,          SHCMD ("systemctl poweroff")},
 	{ MODKEY,             					XK_Return, spawn,          SHCMD ("xterm")},
+	{ MODKEY,             					XK_Escape, spawn,          SHCMD ("xkill")},
+	{ MODKEY,                       XK_t,      spawn,          SHCMD ("xterm")},
 	/*EXTRA FOR ALCI*/
 
 	{ MODKEY,                       XK_p,      spawn,          {.v = dmenucmd } },
@@ -117,7 +119,6 @@ static Key keys[] = {
 	/*{ MODKEY,                       XK_Tab,    view,           {0} },*/
 	{ MODKEY|ShiftMask,				XK_q,      killclient,     {0} },
 	{ MODKEY,						XK_q,      killclient,     {0} },
-	{ MODKEY,                       XK_t,      setlayout,      {.v = &layouts[0]} },
 	{ MODKEY,                       XK_g,      setlayout,      {.v = &layouts[1]} },
 	{ MODKEY,                       XK_m,      setlayout,      {.v = &layouts[2]} },
 	{ MODKEY,                       XK_f,      setlayout,      {.v = &layouts[2]} },

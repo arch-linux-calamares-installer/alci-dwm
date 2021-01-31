@@ -7,4 +7,3 @@ function run {
   fi
 }
 run "dex /etc/xdg/autostart/calamares.desktop"
-sxhkd -c ~/.config/alci-dwm/sxhkd/sxhkdrc &
