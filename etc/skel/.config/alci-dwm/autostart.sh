@@ -7,3 +7,4 @@ function run {
   fi
 }
 run "dex /etc/xdg/autostart/calamares.desktop"
+run "nm-applet"
